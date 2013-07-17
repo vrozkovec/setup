@@ -20,4 +20,4 @@ if [ -d .emacs.d/ ]; then
 fi
 git clone https://github.com/vrozkovec/dotfiles.git
 cd dotfiles
-./install.sh
+./install.sh $1
